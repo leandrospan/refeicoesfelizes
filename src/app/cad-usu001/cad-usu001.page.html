@@ -1,0 +1,26 @@
+<ion-content>
+  <div class="conteudo">
+    <ion-label class="titulo">Crie sua conta</ion-label><br>
+    <div class="entradas">
+      <ion-item class="entrada">
+        <ion-label position="floating">Usuário:</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item class="entrada">
+        <ion-label position="floating">E-mail:</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item class="entrada">
+        <ion-label position="floating">Senha: </ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item class="entrada">
+        <ion-label position="floating">Celular:</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+    <ion-button class="criar" shape="round" expand="block" [routerLink]="['/login']">Criar</ion-button><br>
+    <ion-label class="aceite">Clicando em criar você está aceitando nossos termos e condições</ion-label><br>
+    <ion-label class="entrar">Já tinha conta? <span class="login">Entre aqui</span></ion-label>
+  </div>
+</ion-content>

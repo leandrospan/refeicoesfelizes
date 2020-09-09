@@ -1,0 +1,54 @@
+.conteudo{
+    margin-top: 20%;
+  }
+  
+  .titulo{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 25px;
+    color: red;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .entrada{
+    --background: wheat;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    --highlight-background: red;
+  }
+  
+  .entrada.item-has-focus > ion-label {
+    color: red !important;
+  }
+  
+  .entradas{
+    margin-top: 35px;
+  }
+  
+  .criar{
+    --background: red;
+    margin: 25px;
+  }
+  
+  .aceite{
+    font-size: x-small;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .entrar{
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login{
+    margin-left: 10px;
+    color: red;
+  }

@@ -1,0 +1,38 @@
+ion-slides {
+  height: 100%;
+  --bullet-background-active: red;
+  --bullet-background: tomato;
+}
+
+.slide1{
+  width: auto;
+  height: 350px;
+}
+
+.entrar{
+  color:red;
+  margin-left: 250px;
+}
+
+.titulo{
+  font-weight: bolder;
+  color: red;
+}
+
+.subtitulo{
+  font-size: small;
+  color: gray;
+}
+
+.criar{
+  --background: red;
+}
+
+.icoface{
+  margin-right: 10px;
+}
+
+.face{
+  --background: lightgrey;
+  color: black;
+}

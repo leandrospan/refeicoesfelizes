@@ -11,6 +11,30 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'apresentaslide',
+    loadChildren: () => import('./apresentaslide/apresentaslide.module').then( m => m.ApresentaslidePageModule)
+  },
+  {
+    path: 'cad-usu001',
+    loadChildren: () => import('./cad-usu001/cad-usu001.module').then( m => m.CadUsu001PageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  }/*,
+  {
+    path: 'principal',
+    loadChildren: () => import('./principal/principal.module').then( m => m.PrincipalPageModule)
+  }*/,
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  }/*,
+  {
+    path: 'ofertas',
+    loadChildren: () => import('./ofertas/ofertas.module').then( m => m.OfertasPageModule)
+  }*/,
 ];
 
 @NgModule({
