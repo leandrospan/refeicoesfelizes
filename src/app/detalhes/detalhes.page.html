@@ -1,0 +1,187 @@
+<ion-content>
+  <div class="cabecalho"></div>
+  <div class="ofertas">
+    <div class="titulo">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>
+            <span>Tradicional Comida</span>
+            <ion-icon name="cart" color="danger" style="float: right;"></ion-icon><br>
+            <span>Japonesa</span>
+          </ion-card-title>
+          <ion-card-subtitle>
+            <ion-icon name="star" color="danger"></ion-icon>
+            <span class="pontos">4,9</span> (178 votos) Combinado médio - R$ 60,00<br>
+            <ion-icon name="fast-food" color="danger"></ion-icon>
+            <span class="ingredientes">Salmão, sashimi, nigiri, hotroll</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div><br>
+    <!-- INÍCIO CARROSSEL POPULARES -->
+    <ion-label class="populares">Mais Pedidos</ion-label>
+    <ion-slides [options]="sliderConfig">
+      <ion-slide>
+        <ion-card style="box-shadow: none !important">
+          <img src="assets/armadura001.jpg">
+          <ion-card-content>
+            <ion-label class="titulop">X-burger</ion-label><br>
+            <ion-label class="subtitulop">R$ 10,00</ion-label>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card style="box-shadow: none !important">
+          <img src="assets/armadura002.jpg">
+          <ion-card-content>
+            <ion-label class="titulop">X-burger</ion-label><br>
+            <ion-label class="subtitulop">R$ 10,00</ion-label>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card style="box-shadow: none !important">
+          <img src="assets/armadura003.jpg">
+          <ion-card-content>
+            <ion-label class="titulop">X-burger</ion-label><br>
+            <ion-label class="subtitulop">R$ 10,00</ion-label>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card style="box-shadow: none !important">
+          <img src="assets/armadura004.jpg">
+          <ion-card-content>
+            <ion-label class="titulop">X-burger</ion-label><br>
+            <ion-label class="subtitulop">R$ 10,00</ion-label>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <!-- FIM CARROSSEL POPULARES -->
+    <!-- INICIO LANCHES -->
+    <ion-label class="titulol">Lanches</ion-label>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="lanche">X-burguer clássico</ion-label>
+          </ion-col>
+          <ion-col size="4">
+            <ion-label class="preco">R$ 10,00</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="ingredientes">Hambuguer angus, queijo</ion-label>
+          </ion-col>
+          <ion-col class="popular" size="4">
+            <ion-icon name="star" color="danger" style="float: left; margin-left: 25px;"></ion-icon>
+            <ion-label color="danger">Popular</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="lanche">X-burguer clássico</ion-label>
+          </ion-col>
+          <ion-col size="4">
+            <ion-label class="preco">R$ 10,00</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="ingredientes">Hambuguer angus, queijo</ion-label>
+          </ion-col>
+          <ion-col class="popular" size="4">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="lanche">X-burguer clássico</ion-label>
+          </ion-col>
+          <ion-col size="4">
+            <ion-label class="preco">R$ 10,00</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="ingredientes">Hambuguer angus, queijo</ion-label>
+          </ion-col>
+          <ion-col class="popular" size="4">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <!-- FIM LANCHES -->
+    <!-- INICIO SALGADOS --><br>
+    <ion-label class="titulol">Salgados</ion-label>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="lanche">Coxinha</ion-label>
+          </ion-col>
+          <ion-col size="4">
+            <ion-label class="preco">R$ 5,00</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="ingredientes">Frango e catupiry</ion-label>
+          </ion-col>
+          <ion-col class="popular" size="4">
+            <ion-icon name="star" color="danger" style="float: left; margin-left: 25px;"></ion-icon>
+            <ion-label color="danger">Popular</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="lanche">Pastel</ion-label>
+          </ion-col>
+          <ion-col size="4">
+            <ion-label class="preco">R$ 5,00</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="ingredientes">carne - queijo</ion-label>
+          </ion-col>
+          <ion-col class="popular" size="4">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="lanche">Rissoles</ion-label>
+          </ion-col>
+          <ion-col size="4">
+            <ion-label class="preco">R$ 5,00</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="7">
+            <ion-label class="ingredientes">Muito queijo</ion-label>
+          </ion-col>
+          <ion-col class="popular" size="4">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <!-- FIM SALGADOS -->
+  </div>
+</ion-content>

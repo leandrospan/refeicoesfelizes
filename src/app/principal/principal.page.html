@@ -73,4 +73,196 @@
     </ion-slide>
   </ion-slides>
   <!-- FIM CARROSSEL -->
+  <!-- INÍCIO PRODUTOS -->
+  <ion-card>
+    <img src="assets/ff002.jpg">
+    <ion-card-header>
+      <ion-card-title>
+        Café da manhã Hollywood
+      </ion-card-title>
+      <ion-card-subtitle>
+        <ion-icon name="star" color="danger"></ion-icon>
+        <span class="pontos">4.9</span> (124 votos) Café - Completo - R$15,00
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <img src="assets/jovens001.jpg">
+    <ion-card-header>
+      <ion-card-title>
+        Almoço Miami
+      </ion-card-title>
+      <ion-card-subtitle>
+        <ion-icon name="star" color="danger"></ion-icon>
+        <span class="pontos">4.0</span> (60 votos) Almoço - R$25,00
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <img src="assets/ff001.jpg">
+    <ion-card-header>
+      <ion-card-title>
+        Jantar Parisiense
+      </ion-card-title>
+      <ion-card-subtitle>
+        <ion-icon name="star" color="danger"></ion-icon>
+        <span class="pontos">5</span> (168 votos) Jantar - Completo - R$68,00
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <!-- FIM PRODUTOS -->
+  <!-- INÍCIO CARROSSEL PRODUTOS POPULARES -->
+  <ion-label class="populares">Mais Pedidos</ion-label>
+  <ion-slides [options]="sliderConfig2">
+    <ion-slide>
+      <ion-card>
+        <img src="assets/jovens002.jpg">
+        <ion-card-header>
+          <ion-card-title>
+            Hamburguer Rápido
+          </ion-card-title>
+          <ion-card-subtitle>
+            X-burger - normal - R$10,00
+            <ion-icon name="star" color="danger"></ion-icon>
+            <span class="pontos">4.5</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <img src="assets/stryke.jpg">
+        <ion-card-header>
+          <ion-card-title>
+            X-bacon
+          </ion-card-title>
+          <ion-card-subtitle>
+            X-bacon - normal - R$18,00
+            <ion-icon name="star" color="danger"></ion-icon>
+            <span class="pontos">5</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <img src="assets/1602.jpg">
+        <ion-card-header>
+          <ion-card-title>
+            X-Salada
+          </ion-card-title>
+          <ion-card-subtitle>
+            X-Salada - normal - R$12,00
+            <ion-icon name="star" color="danger"></ion-icon>
+            <span class="pontos">5</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <img src="assets/wildcats.jpg">
+        <ion-card-header>
+          <ion-card-title>
+            X-Tudo
+          </ion-card-title>
+          <ion-card-subtitle>
+            X-Tudo - normal - R$20,00
+            <ion-icon name="star" color="danger"></ion-icon>
+            <span class="pontos">3.9</span>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  <!-- FIM CARROSSEL PRODUTOS POPULARES -->
+  <!-- INÍCIO NOVAS REFEIÇÕES -->
+  <ion-label class="populares">Novas Refeições</ion-label>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="4">
+          <img src="assets/gambit.jpg" width="100px" height="80px">
+        </ion-col>
+        <ion-col size="8">
+          <ion-row>
+            <ion-col>
+              <ion-label class="rtitulo">Café Super Show</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="rsubtitulo">Café - normal - R$ 2,00</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="rsubtitulo">
+                <ion-icon name="star" color="danger"></ion-icon>
+                <span class="pontos">4.5</span> (120 votos)
+              </ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="4">
+          <img src="assets/gen13.jpg" width="100px" height="80px">
+        </ion-col>
+        <ion-col size="8">
+          <ion-row>
+            <ion-col>
+              <ion-label class="rtitulo">Cappuccino Show</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="rsubtitulo">Cappuccino - normal - R$ 3,00</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="rsubtitulo">
+                <ion-icon name="star" color="danger"></ion-icon>
+                <span class="pontos">5.1</span> (220 votos)
+              </ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="4">
+          <img src="assets/herois.jpg" width="100px" height="80px">
+        </ion-col>
+        <ion-col size="8">
+          <ion-row>
+            <ion-col>
+              <ion-label class="rtitulo">Suco de laranja</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="rsubtitulo">Suco - normal - R$ 5,00</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="rsubtitulo">
+                <ion-icon name="star" color="danger"></ion-icon>
+                <span class="pontos">5</span> (200 votos)
+              </ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
 </ion-content>

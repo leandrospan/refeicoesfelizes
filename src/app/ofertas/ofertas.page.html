@@ -1,9 +1,67 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>ofertas</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <div class="cabecalho">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="7">
+          <ion-row>
+            <ion-col>
+              <ion-label class="tituloc">Últimas Ofertas</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label class="subtituloc">Encontre descontos, ofertas,</ion-label><br>
+              <ion-label class="subtituloc">refeições especiais e muito mais! </ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-button class="botao" shape="round" size="small">20 Restaurantes</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+        <ion-col size="4">
+          <img class="imagemc" src="assets/ironman.png">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <div class="ofertas">
+    <ion-card [routerLink]="['/detalhes']">
+      <img src="assets/amalgama001.jpg" class="imagemo">
+      <ion-card-header>
+        <ion-card-title>
+          Tradicional Comida Japonesa
+        </ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="star" color="danger"></ion-icon>
+          <span class="pontos">4.9</span> (124 votos) Jantar Completo - R$50,00
+        </ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+    <ion-card>
+      <img src="assets/amalgama002.jpg" class="imagemo">
+      <ion-card-header>
+        <ion-card-title>
+          Comida Mexicana
+        </ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="star" color="danger"></ion-icon>
+          <span class="pontos">3.5</span> (101 votos) Jantar Completo - R$35,00
+        </ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+    <ion-card>
+      <img src="assets/marvel.jpg" class="imagemo">
+      <ion-card-header>
+        <ion-card-title>
+          Carppaccio
+        </ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="star" color="danger"></ion-icon>
+          <span class="pontos">2.5</span> (24 votos) Jantar Completo - R$30,00
+        </ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+  </div>
 </ion-content>

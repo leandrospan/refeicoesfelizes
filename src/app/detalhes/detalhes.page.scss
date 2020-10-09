@@ -1,0 +1,79 @@
+ion-content{
+    --color: white;
+}
+
+ion-content div:first-child{
+    position: relative;
+}
+
+ion-content div:last-child{
+    position: relative;
+    margin-top: -25px;
+}
+
+.cabecalho{
+    height: 200px;
+    background-image: url('../../assets/amalgama001.jpg');
+    background-size: cover;
+}
+
+.pontos{
+    color: red;
+    margin-left: 5px;
+}
+
+ion-card{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ion-card-title{
+    font-weight: bolder;
+}
+
+ion-card-subtitle{
+    font-size: small;
+}
+
+.ingredientes {
+    font-size: xx-small;
+}
+
+.populares{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: red;
+}
+
+.titulop{
+    font-size: small;
+    color: black;
+}
+
+.subtitulop{
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+}
+
+.titulol{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    margin-left: 25px;
+}
+
+.lanche{
+    font-weight: bolder;
+}
+
+.preco{
+    font-weight: bolder;
+    text-align: right;
+}
+
+.popular{
+    font-size: small;
+    text-align: right;
+}
